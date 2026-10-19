@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projects · Landon Morton</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="logo" href="index.html">LANDON MORTON</a
+        ><button class="menu" aria-label="Menu">Menu</button>
+        <nav>
+          <a href="index.html">Home</a><a href="projects.html">Projects</a
+          ><a href="resume.html">Resume</a><a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrap">
+        <p class="eyebrow">Work</p>
+        <h1>Projects</h1>
+        <p>Things I’ve built during my coursework at Ranken.</p>
+        <div class="filters">
+          <button class="on" data-filter="all">All</button
+          ><button data-filter="api">API</button
+          ><button data-filter="game">Game</button
+          ><button data-filter="other">Other</button>
+        </div>
+        <div class="grid">
+          <a
+            class="card"
+            data-cat="api"
+            href="https://github.com/Landon0Morton/issueTracker"
+            target="_blank"
+            rel="noopener"
+            ><span class="tag">API</span>
+            <h3>Issue Tracker</h3>
+            <p>
+              A simple API that creates, returns, updates, and deletes issues.
+              Built in TypeScript.
+            </p></a
+          ><a class="card" data-cat="game" href="projects.html"
+            ><span class="tag">Game</span>
+            <h3>Darkest Dungeon Remake</h3>
+            <p>
+              Darkest Dungeon recreated in Windows Forms with C#, then rebuilt
+              in TypeScript.
+            </p></a
+          ><a class="card" data-cat="other" href="projects.html"
+            ><span class="tag">Other</span>
+            <h3>Third Project</h3>
+            <p>Details coming soon.</p></a
+          >
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="wrap">
+        <span>© <span id="year"></span> Landon Morton</span
+        ><a href="mailto:Landonm0317@gmail.com">Landonm0317@gmail.com</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
